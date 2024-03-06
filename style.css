@@ -1,0 +1,43 @@
+.wraper {
+    margin:auto;width: 80%;text-align: center;
+}
+ .ph img {
+    background-color: blue; object-fit: cover;
+    width: 100%;
+}
+.ph figure {
+    width: 100%;margin: 0 auto 15px;padding:8px 0;background-color: rgb(165, 193, 218);font-size: 16px;
+}
+.ph {
+    font-size: 0;
+}
+
+
+@media  screen and (min-width:501px) {
+.container {
+    display: flex; flex-wrap: wrap;justify-content: space-between;}
+.ph{
+   flex-basis: 33%;text-align: start;
+}
+.ph img, .ph figure {width: 80%;}  
+.ph figure {
+    margin: 0 0 15px 0;text-align: center;
+}
+.wraper {
+    text-align: start;
+}
+}
+@media  screen and (min-width:801px){
+.container {
+    display: flex; flex-wrap: wrap;justify-content: space-around}
+    .ph{
+        flex-basis: 20%;text-align: start;
+     }
+h1 {
+    margin: 12px 0;
+}
+p {
+    margin: 10px 0;
+}
+    }
+
